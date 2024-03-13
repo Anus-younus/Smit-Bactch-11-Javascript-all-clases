@@ -5,3 +5,17 @@
 //     document.write('Welcome to the city of light')
 // }
 
+let gender = prompt('Enter your gender')
+
+
+if(gender === 'Male'){
+    console.log('Welcome Sir')
+    document.write('Welcome Sir')
+    alert('Welcome Sir')
+}
+else if(gender === 'Female'){
+    console.log('Welcome Mam')
+    document.write('Welcome Mam')
+    alert('Welcome Mam')
+}
+
