@@ -77,8 +77,14 @@ let nameAnwar = firstName.toLocaleUpperCase();
 // //   console.log("Sorry!");
 // }
 
-let userName = prompt("Enter your name");
+// let userName = prompt("Enter your name");
 
 let uerArray = (userName = [""]);
 
-console.log(u);
+// console.log(u);
+
+var userName = prompt([""])
+
+let answer = user.slice(0,1)
+
+console.log(user.concat(answer));
