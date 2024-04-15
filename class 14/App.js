@@ -26,12 +26,12 @@
 
 // console.log(fruits, sortedFruits, reversFruits);
 
-let num = 2.5
+// let num = 2.5
 
-let round = Math.round(num)
+// let round = Math.round(num)
 
-let ceiledValue = Math.ceil(num)
+// let ceiledValue = Math.ceil(num)
 
-let flooredValue = Math.floor(num)
+// let flooredValue = Math.floor(num)
 
-console.log(round, ceiledValue, flooredValue);
+// console.log(round, ceiledValue, flooredValue);

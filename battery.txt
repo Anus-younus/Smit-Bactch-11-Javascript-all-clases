@@ -1,0 +1,5 @@
+ powercfg/batteryreport
+
+Full Charge Capacity * Design Capacity
+
+C:\Users\Sj\battery-report.html.

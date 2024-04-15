@@ -1,0 +1,27 @@
+.my-class{
+    color: red;
+    font-family: sans-serif;
+}
+
+.new-heading{
+    color: blue;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.image{
+    height: 200px;
+    width: 400px;
+}
+
+.my-github{
+    color: purple;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.heading{
+    color: brown;
+    font-family: sans-serif;
+}
