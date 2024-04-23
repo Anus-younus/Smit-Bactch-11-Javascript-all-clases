@@ -183,16 +183,46 @@
 // text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
 // }
 
-let str = "the quick world war II brown fox jumps world war II over the lazy world war II dog.";
+// let str = "the quick world war II brown fox jumps world war II over the lazy world war II dog.";
 
-console.log(str);
+// console.log(str);
 
-let txt = str.indexOf("world war II")
+// let txt = str.indexOf("world war II")
 
-if(txt !== -1){
-    str = str.slice(0, txt) + "the second world war" + str.slice(txt + 12)
-}
-console.log(str);
+// if(txt !== -1){
+//     str = str.slice(0, txt) + "the second world war" + str.slice(txt + 12)
+// }
+// console.log(str);
 
-var text = "To be or not to be.";
-var segIndex = text.lastIndexOf("be");
+// var text = "To be or not to be.";
+// var segIndex = text.lastIndexOf("be");
+
+// var integerString = "24"
+// var num = Number(integerString);
+
+// var floatingNumString = "24.9876";
+// var num = Number(floatingNumString);
+
+// var numberAsNumber = 1234;
+// var numberAsString = numberAsNumber.toString();
+
+// var taxRate = 6.5
+
+// var price = 9.25
+
+// var total = price + (price * taxRate);
+
+// var prettyTotal = total.toFixed(2);
+
+// var currencyTotal = "$" + prettyTotal;
+
+// var prettyTotal = total.toFixed();
+
+// var num = 11122233
+
+// var str = num.toString();
+// if (str.charAt(str.length - 1) === "5") {
+// str = str.slice(0, str.length - 1) + "6";
+// }
+// num = Number(str);
+// prettyNum = num.toFixed(2);
