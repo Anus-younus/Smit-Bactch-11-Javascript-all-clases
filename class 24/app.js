@@ -35,16 +35,17 @@
 
 // xyz()
 
-function createBook(bookName, author, pages, topic) {
-    var book = {
-        bookName : bookName,
-        author : author,
-        pages : pages,
-        topic : topic
-    }
-    return book;
-}
+// function createBook(bookName, author, pages, topic) {
+//     var book = {
+//         bookName : bookName,
+//         author : author,
+//         pages : pages,
+//         topic : topic
+//     }
+//     return book;
+// }
 
-let book1 = createBook("Bahar Shariat", "Mufti Amjad", 9000, "Islamic");
+// let book1 = createBook("Bahar Shariat", "Mufti Amjad", 9000, "Islamic");
 
-console.log(book1);
+// console.log(book1);
+
