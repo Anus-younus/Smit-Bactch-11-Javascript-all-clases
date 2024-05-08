@@ -1,0 +1,9 @@
+h3{
+    background-color: red;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    text-align: center;
+    font-weight: normal;
+    padding: 1em;
+}
