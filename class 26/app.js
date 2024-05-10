@@ -34,7 +34,16 @@ function errorMsg(){
 let buttonEle = document.querySelectorAll('button');
 
 buttonEle[0].addEventListener('click', () => {
+   let matchFound = false;
+   if(matchFound === false){
    h1Ele[0].innerHTML = 0
    inputEle[0].value = ''
    h3Ele[0].style.display = 'none'
+   matchFound = true;
+   }
+   else if(matchFound === true){
+    h1Ele[0].innerHTML = 0
+   inputEle[0].value = 1
+   h3Ele[0].style.display = 'none'
+   }
 });
