@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.container{
+    border: 1px solid #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    height: 30em;
+    width: 30em;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 20px;
+}
+
+.child-1, .child-2{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #bbb;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #000;
+    cursor: pointer;
+}
